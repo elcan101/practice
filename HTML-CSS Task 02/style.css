@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #fff;
+    color: #333;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 15px;
+    font-weight: 500;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 60px 5%;
+}
+
+.sale-tag {
+    color: #d4a373;
+    font-style: italic;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+
+.slider-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 30px;
+}
+
+.main-sofa {
+    max-width: 500px;
+    width: 100%;
+}
+
+.arrow {
+    font-size: 30px;
+    cursor: pointer;
+    color: #ccc;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.view-details {
+    background: black;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Collection Section */
+.collection {
+    text-align: center;
+    padding: 80px 10%;
+    background-color: #fff;
+}
+
+.sub-text {
+    max-width: 600px;
+    margin: 20px auto 50px;
+    color: #777;
+    font-size: 14px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.product-card {
+    text-align: center;
+}
+
+.img-box {
+    background: #f4f4f4;
+    padding: 40px;
+    margin-bottom: 15px;
+}
+
+.img-box img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #aaa;
+    margin-right: 10px;
+}
+
+/* Testimonial Section */
+.testimonial {
+    background: url('https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=1200&q=80') center/cover;
+    height: 400px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonial-box {
+    background: white;
+    padding: 40px;
+    max-width: 700px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+/* Newsletter */
+.newsletter {
+    padding: 80px 5%;
+    text-align: center;
+}
+
+.subscribe-form {
+    margin-top: 30px;
+}
+
+.subscribe-form input {
+    padding: 12px;
+    width: 300px;
+    border: 1px solid #ddd;
+}
+
+.subscribe-form button {
+    padding: 12px 25px;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background: #1a1817;
+    color: white;
+    padding: 60px 5%;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #333;
+    padding-bottom: 20px;
+}
+
+.footer-nav a {
+    color: #999;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.footer-main h1 {
+    font-size: 60px;
+    margin: 40px 0;
+    font-weight: 300;
+}
+
+.social-links span {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border: 1px solid #555;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 10px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.contact-btn {
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+
+/* Fixed Download Button */
+.download-now-fixed {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    font-size: 14px;
+    z-index: 1000;
+}
+
+/* Dots */
+.dots { margin-top: 30px; }
+.dot {
+    height: 8px;
+    width: 8px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 5px;
+}
+.dot.active { background-color: #333; }
